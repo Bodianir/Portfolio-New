@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(12, 21, 29);
+}
+.theme {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+}
+.profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color:white;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.victor {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-style: italic;
+}
+.Engineer {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+.logo {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin:auto;
+}
+.experience {
+  color: rgb(153, 161, 169);
+  display: flex;
+  text-align: center;
+}
+.years {
+  font-size: 10px;
+  width: 33%;
+}
+.sign {
+  width: 15px;
+  height: 15px;
+}
+.button1 {
+  background-color: yellow;
+  height: 45px;
+  width: 190px;
+  border: 2px;
+  padding: 10px;
+  border-radius: 15px;
+ 
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  gap:30px;
+}
+.button2 {
+  height: 45px;
+  width: 190px;
+  border: 2px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(23, 31, 38);
+}
+
+.port {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(12, 21, 29);
+  color: white;
+ 
+}
+.skill {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(32, 30, 30);
+  color: white;
+}
+
+.pics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  align-items: center;
+  max-width: 100%;
+
+}
+.buttons1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    gap:30px;
+  }
+ 
+
+@media screen and (min-width: 700px) {
+    
+     
+  body {
+    background-color: rgb(233,235,236); 
+}
+    h1,
+    p,
+    div {
+        color: black;
+    }
+    .Engineer {
+        color:black;
+      }
+      .name{
+        color:black;
+      }
+     .wrap{
+        width: 500px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        align-items: center;
+        justify-content: center;
+      
+     
+     }
+     @media (prefers-color-scheme: dark) {
+    }
+  }
+
+
+
